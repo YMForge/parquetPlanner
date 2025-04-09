@@ -74,7 +74,7 @@ export default function Pricing() {
           <PricingTier
             title="Basic"
             price="Free"
-            description="Perfect for DIY homeowners with a single project."
+            description="See how the app works."
             features={[
               "Basic room layouts",
               "Single room planning",
@@ -86,9 +86,9 @@ export default function Pricing() {
           />
           
           <PricingTier
-            title="Professional"
-            price="$29"
-            description="For contractors and serious DIYers with multiple projects."
+            title="One time use"
+            price="99NOK"
+            description="For the one time parquet project."
             features={[
               "Complex room layouts",
               "Multi-room planning",
@@ -96,7 +96,7 @@ export default function Pricing() {
               "Detailed material list",
               "Cut optimization",
               "Export to PDF",
-              "30-day access"
+              "One time use"
             ]}
             popular={true}
             ctaText="Try Pro"
@@ -104,7 +104,7 @@ export default function Pricing() {
           
           <PricingTier
             title="Business"
-            price="$99"
+            price="990"
             description="For flooring businesses with ongoing projects."
             features={[
               "Everything in Professional",
