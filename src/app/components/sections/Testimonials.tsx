@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 type TestimonialProps = {
   quote: string;
   author: string;
@@ -40,7 +38,7 @@ export default function Testimonials() {
             What Our <span className="text-amber-600">Users Say</span>
           </h2>
           <p className="text-xl text-gray-600">
-            Join the community of satisfied customers who've transformed their flooring projects.
+            Join the community of satisfied customers who&apos;ve transformed their flooring projects.
           </p>
         </div>
         
